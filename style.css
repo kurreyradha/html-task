@@ -1,0 +1,548 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(250, 233, 236);
+}
+
+.inpunav{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+.inpunav input{
+    width:350px;
+    padding: 10px;
+    border: none;
+    outline: none;
+
+}
+
+.pages ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.pages ul a{
+   text-decoration: none;
+   margin: 10px;
+    
+}
+
+
+.pages ul div i{
+   font-size: 30px;
+   margin-left: 20px;
+     
+ }
+
+ /* ====================================  navbar ends =============================================== */
+
+ #midnav ul{
+    display:flex ;
+    justify-content:space-evenly ;
+    list-style: none;
+ }
+
+ #midnav ul a{
+  text-decoration: none;
+ }
+
+ /* ================================ends in mid navbar ========================== */
+
+ #hero img {
+    height: 430px;
+    width: 100%;
+ }
+
+ .rhiding{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 400px;
+    color: brown;
+ }
+
+
+ .celpara{
+    margin-top: 10px;
+    margin-left: 450px;
+    font-size: 20px;
+ 
+ }
+
+
+ .galimg {
+    display: flex;
+    justify-content: space-around;
+   
+ }
+
+ .galimg div img {
+ 
+    height: 300px;
+    width: 370px;
+ }
+
+
+
+ /* ======================================================================================= */
+ .shopby{
+   font-size: 50px;
+   font-weight: 700;
+   margin-left: 35%;
+   margin-top: 20px;
+   color: brown;
+ }
+
+ .Browse{
+   font-size: 20px;
+   margin-left: 30%;
+ }
+
+
+.miniimg{
+   display: flex;
+   justify-content:space-between;
+}
+
+.miniimg1 img {
+   height: 170px;
+   width:180px
+}
+
+.E{
+   height: 60px;
+   width: 160px;
+   
+   font-size: 21px;
+   color: brown;
+   padding-left: 50px;
+}
+
+
+.M{
+   height: 60px;
+   width: 160px;
+   
+   font-size: 21px;
+   color: brown;
+   padding-left: 30px;
+}
+
+.G{
+   height: 60px;
+   width: 160px;
+  
+   font-size: 21px;
+   color: brown;
+   padding-left: 40px;
+}
+
+.F{
+   height: 60px;
+   width: 160px;
+   
+   font-size: 21px;
+   color: brown;
+   padding-left: 40px;
+}
+
+.P{
+   height: 60px;
+   width: 160px;
+   
+   font-size: 21px;
+   color: brown;
+   padding-left: 40px;
+}
+
+.N{
+   height: 60px;
+   width: 160px;
+  
+   font-size: 21px;
+   color: brown;
+   padding-left: 40px;
+}
+
+
+/* ============================================================================================ */
+.bycoll{
+   font-size: 50px;
+   margin-left: 35%;
+   color: brown;
+   font-weight: 700;
+}
+
+.Whatever{
+   font-size: 20px;
+   margin-left: 30%;
+}
+
+.threminiimg {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.threminiimg div img{
+   height: 300px;
+   width:350px
+}
+
+.stinit{
+   font-size: 25px;
+   color:brown;
+   padding-left: 60px;
+   
+}
+
+
+
+/* =============================================================================================== */
+.pickup{
+   font-size: 40px;
+   font-weight: 700;
+   margin-left: 35%;
+   margin-top: 30px;
+   color: brown;
+
+}
+
+.ourpro{
+   font-size: 20px;
+   margin-left: 30%;
+
+}
+
+.tanishq img {
+   width:80%;
+   height: 400px;
+   margin-left: 140px;
+   margin-bottom: 30px;
+}
+
+
+/* ========================================================================= */
+.topsellers111{
+   font-size: 40px;
+   margin-left: 40%;
+   color: brown;
+   font-weight: 700;
+}
+
+.checkout111{
+   font-size: 20px;
+   margin-left: 30%;
+}
+
+
+/* ===================================================================== */
+.newFor{
+   font-size: 40px;
+   margin-left: 40%;
+   color: brown;
+   font-weight: 700;
+
+}
+
+.latestOur{
+   font-size: 20px;
+   margin-left: 39%;
+}
+
+.bkck{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+.bkck img{
+   width: 360px;
+   height: 310px;
+}
+
+/* ================================================================== */
+.gender{
+   font-size: 40px;
+   font-weight: 700;
+   margin-left: 40%;
+   margin-top: 30px;
+   color: brown;
+}
+
+.childern111{
+font-size: 20px;
+margin-left: 30%;
+
+}
+
+.prd {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.prd img{
+   width: 380px;
+
+}
+
+
+
+
+.kids{
+   height: 60px;
+   width: 160px;
+   
+   font-size: 29px;
+   color: brown;
+   padding-left: 110px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+.Find{
+   font-size: 40px;
+   font-weight: 700;
+   margin-left: 20%;
+   margin-top: 30px;
+
+}
+
+.Explore{
+   font-size:25px;
+   margin-left: 40%;
+
+}
+
+.wse{
+
+   display: flex;
+   justify-content: space-evenly;
+   
+   border-radius: 10px;
+   font-size: 30px;
+   
+   margin-left: 5%;
+   margin-top: 35px;
+   padding: 10px;
+}
+
+.wo{
+   border-radius: 30px;
+   background-color: brown;
+   padding: 10px;
+   
+}
+
+.wo:hover{
+   scale:1.2;
+   transition: all 1s;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.v2{
+   
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(250, 233, 236);
+}
+
+.demand img{
+
+   width: 300px;
+   height: 330px;
+   
+
+   margin-top: 40px; 
+   border-radius: 20px;
+
+   
+    
+}
+
+.static img{
+   width: 230px;
+   height: 200px;
+   margin-top: 45%;
+   border-radius: 20px;
+
+  
+}
+
+.dw img{
+   width: 230px;
+   height: 190px;
+   margin-top: 45%;
+   border-radius: 20px;
+}
+
+.so{
+
+   height: 60px;
+   width: 180px;
+   
+   font-size: 25px;
+   color: brown;
+   padding-left: 70px;
+
+}
+
+.di{
+
+   height: 60px;
+   width: 180px;
+   
+   font-size: 21px;
+   color: brown;
+   padding-left: 70px;
+ 
+}
+
+.lib img{
+   width:75%;
+      height: 410px;
+      margin-left: 140px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+   
+
+}
+
+
+.lib:hover{
+   scale:1.1;
+   transition: all 1s;
+}
+
+.sit img{
+   
+      width:75%;
+      height: 410px;
+      margin-left: 140px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+   }
+
+   .sit:hover{
+      scale:1.1;
+      transition: all 1s;
+   }
+
+   .radha{
+
+      display: flex;
+      justify-content: space-evenly;
+   }
+
+   .radha img{
+      width: 500px;
+      height: 330px;
+   
+   }
+
+   .hoverra:hover{
+      scale:1.1;
+      transition: all 1s;
+   }
+   
+   .hoverdha:hover{
+      scale:1.1;
+      transition: all 1s;
+   }
+
+
+
+/*------------------------------- footer -------------------------*/
+
+
+
+.footer{
+   background-color: rgb(241, 201, 208);
+   padding:20px;
+  
+
+}
+
+.bofooter{
+   display: flex;
+   
+   justify-content: space-evenly;
+   margin-top: 40px;
+}
+
+
+#bf1{
+   margin-bottom:20px;
+}
+
+
+.mfooter{
+   padding-top: 50px;
+   
+   display: flex;
+   /* flex-wrap: wrap; */
+   /* align-items: center; */
+   /* justify-content: space-evenly; */
+   padding-right: 30px;
+   margin-top: 370px;
+   
+}
+.mf1{
+   font-size: 30px;
+}
+
+.mf2{
+   font-size: 40px;
+  
+
+}
+
+.ll{
+   
+   margin-top: 50px;
+}
+
+.anchor a{
+   text-decoration: none;
+}
+
+
+
+
+
+
+#ap{
+   width: 140px;
+   margin-bottom: 50px;
+}
+
+.bfooter2{
+
+   font-size: 25px;
+   
+   color: brown;
+}
+
+.anchor{
+   font-size: 20px;
+}
+
+.bfooter3{
+   font-size: 25px;
+   
+   color: brown;
+
+}
+
+.bfooter4{
+   font-size: 25px;
+   
+   color: brown;
+}
+   
+

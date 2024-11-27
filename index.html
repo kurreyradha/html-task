@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <section id="navbar">
+        <div ><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJhIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTQuODMgNzQuNzkiPjxkZWZzPjxzdHlsZT4uYntmaWxsOiM4MzI3Mjk7ZmlsbC1ydWxlOmV2ZW5vZGQ7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJiIiBkPSJNMzguNzksNy41NWMtLjYyLTIuOTEsMS4zMi01LjU2LDQuMTUtNS41Nmg3Ljk1YzIuMTIsLjA5LDQuNzctMS41OSw0Ljc3LTEuNTlWMTMuNzNjMCwxMy41MS03LjQyLDE5LjI0LTEwLjg2LDE5Ljc3LS42MiwuMjctMS4wNiwuMDktLjI2LS41Myw0LjY4LTMsNy40Mi0xMC4xNSw3LjY4LTE2LjI0VjQuNTVjLS45NywuNjItMi44MiwuNzEtMi44MiwuNzFoLTYuOTdjLTEuODUsMC0yLjgyLC42Mi0zLjYyLDIuMjltMzUuNTgsMGMuNjItMi45MS0xLjI0LTUuNTYtNC4xNS01LjU2aC03Ljk1Yy0yLjAzLC4wOS00Ljc3LTEuNTktNC43Ny0xLjU5VjEzLjczYzAsMTMuNTEsNy40MiwxOS4yNCwxMC44NiwxOS43NywuNjIsLjI3LDEuMDYsLjA5LC4yNy0uNTMtNC42OC0zLTcuNDItMTAuMTUtNy42OC0xNi4yNFY0LjU1Yy45NywuNjIsMi44MiwuNzEsMi44MiwuNzFoNy4wNmMxLjg1LDAsMi44MywuNjIsMy41MywyLjI5aDBaTTIwLjI2LDYyLjk5Yy0uNzEtMS43Ny0uMTgtMy43MSwuMjYtNC40MWg4LjAzdjQuNDFoMi4wM3YtMTkuNTFzLS42Mi0uMDktMS4wNiwuNjJjLTMsNC43Ny01LjMsNi04LjY1LDkuMzYtMi44MywyLjgyLTQuOTQsNi0zLjg5LDkuNTNoMy4yN1ptLjg4LTUuNzRoNy40MnYtOC4zOWMtMS44NSwzLjQ0LTYuMjcsNS4zLTcuNDIsOC4zOVptODQuOTMtMTUuOGMtMi41NiwyLjAzLTQuNjgsMy44LTUuODMsNi40NC0xLjI0LDIuNjUtMS41OSw2LjQ0LDAsOS43MSwxLjc3LDMuNjIsMy44LDUuNTYsNi4xOCw3Ljk0LDEuNjgsMS44NSw0Ljg2LDUuNTYsMy44LDguODMsLjc5LDAsMS44NS0xLjk0LDIuMDMtMi42NSwuNDQtMi4yOSwuMTgtMy40NC0uNzktNS4xMi0uNjItMS4xNS0xLjk0LTIuMjktMi45MS0zLjQ0LDEuNDEtMS4xNSwyLjkxLTIuODMsNC4xNS00LjUsMS41OS0yLjIxLDIuNTYtNS45MSwuNTMtOS41My0xLjg1LTMuNDQtNy4wNi02LjYyLTcuMTUtNy42OGgwWm0xLjA2LDIwLjM5Yy0yLjAzLTEuNjgtMy4yNy0zLjA5LTQuNS01LjgzLTEuMjQtMi40Ny0xLjMyLTUuMzktLjc5LTcuNDIsLjYyLTIuMjEsMi4xMi0zLjgsMy41My00Ljk0LDEuNTksMS4xNSwzLjI3LDIuNTYsNC41LDQuNTksMi4wMywzLjQ0LDIuMDMsNS45MSwuNzEsOS4yNy0uNzksMS45NC0xLjY4LDMuMDktMy40NCw0LjMzaDBaTS41Nyw0NS4wN2MtLjM1LS43MSwuMTgtMi41NiwyLjMtMi4zOEgxMy4yOGMxLjMyLC4wOSwyLjEyLS44OCwzLjgtLjcxLTIuMzgsMS45NC0yLjY1LDIuOTEtMy4wOSw0Ljc3bC0xLjY4LDEzLjY4Yy0uNDQsNS41NiwxLjE1LDEwLjE1LDUuMywxMy45NS0yLjU2LC4zNS04LjEyLTMuNzEtOC4zLTExLjEyLS4xOC0zLjcxLC44OC0xNS41NCwuODgtMTUuNTQsLjI2LTEuOTQsMS41LTMuMzUsMS41LTMuMzVIMS44Yy0uNjIsLjA5LS45NywuMDktMS4yNCwuNzFILjU3Wm04MS44NCwxNy4zOWgyLjU2di01LjIxaDYuOTd2NS40N2gyLjY1di0xOC44OWgtMi42NXYxMS45MmgtNi45N3YtMTEuOTJoLTIuNTZ2MTguNjNoMFptLTcuMTUtMTQuMjFjLS42MiwuMTgtMS4yNC0uMDktMS44NS0uNjItLjg4LS43OS0xLjI0LTEuNTktMi4zOC0yLjI5LTEuMjQtLjYyLTMtLjcxLTQuMDYsLjA5LS45NywuNzEtLjk3LDIuMywuMDksMy4xOCwyLjAzLDEuNTksNC4yNCwyLjQ3LDYuOCwzLjgsNC42OCwyLjQ3LDUuNDcsNi44LDIuMjEsOS0yLjc0LDEuODUtNi4xOCwyLjAzLTkuMjcsLjg4LTIuMzgtLjk3LTQuMjQtMi45MS00LjUtNS4zLDEuNTksMCwyLjEyLC43MSwyLjc0LDEuNjgsLjk3LDEuMzIsMS41OSwxLjg1LDMsMi40NywyLjAzLC43OSw0LjMzLC41Myw1LjY1LS4yNiwxLjk0LTEuMjQsMS42OC0zLjI3LC4yNi00LjU5LTIuOTEtMi43NC02LjUzLTMuNTMtOC41Ni01LjU2LTEuNzctMS43Ny0yLjM4LTMuNzEtLjUzLTUuNzQsMS41OS0xLjY4LDUuODMtMi4yMSw4LjMtLjA5LDEuMDYsLjk3LDEuODUsMi4xMiwyLjEyLDMuMzVoMFptLTIxLjEtMTAuMDZjMC0xLjQxLDEuMDYtMi40NywyLjQ3LTIuNDcsMS4yNCwwLDIuMzgsMS4wNiwyLjM4LDIuNDcsMCwxLjMyLTEuMTUsMi40Ny0yLjM4LDIuNDctMS40MSwwLTIuNDctMS4xNS0yLjQ3LTIuNDdabTEuMTUsNS42NWgyLjQ3djE5LjE2aC0yLjQ3di0xOS4xNlptLTE5LjI1LDE5LjE2aDEuNzd2LTEzLjE1Yy44OCwyLjU2LDUuMjEsNS45Miw1LjIxLDUuOTIsMCwwLDMuMzUsMi44Myw0Ljk0LDYuNzFsMS4wNiwuNTN2LTE5LjE2aC0xLjc3djEzLjQyYy0uOTctMi41Ni00Ljc3LTUuNTYtNC43Ny01LjU2LTIuOTEtMi41Ni00Ljg2LTYuMDktNS4zLTcuNzdsLTEuMTUtLjM1djE5LjQyaDBaIi8+PC9zdmc+" height="100px" width="70px"></div>
+        <div class="inpunav"><input type="text" placeholder="Search for Gold Jewellery,Dimond Jewellery and more ..."><i class="fa-solid fa-camera"></i><i class="fa-solid fa-microphone-slash"></i><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="pages">
+            <ul>
+                <div>
+                <i class="fa-solid fa-ring" ></i>
+                <li><a href="">FESTIVE</a></li>
+               </div>
+               <div>
+                <i class="fa-solid fa-store"></i>
+                <li><a href="">STORES</a></li>
+               </div>
+               <div>
+                <i class="fa-solid fa-user"></i>
+                <li><a href="">ACCOUNT</a></li>
+               </div>
+               <div>
+                <i class="fa-solid fa-heart"></i>
+                <li><a href="">WISHLIST</a></li>
+               </div>
+               <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <li><a href="">CART</a></li>
+               </div>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- ==============================================================navbar ends ================= -->
+
+    <div id="midnav">
+        <ul>
+            <li><a href="">All JEWELLERY</a></li>
+            <li><a href="">GOLD</a></li>
+            <li><a href="">DIAMOND</a></li>
+            <li><a href="">EARRING</a></li>
+            <li><a href="">RINGS</a></li>
+            <li><a href="">DIGITAL GOLD</a></li>
+            <li><a href="">MIA</a></li>
+            <li><a href="">COLLECTION</a></li>
+            <li><a href="">WEDDING</a></li>
+            <li><a href="">GOLDEN HARVEST</a></li>
+            <li><a href="">GIFTING</a></li>
+            <li><a href="">MORE</a></li>
+        </ul>
+    </div>
+
+    <!-- ================================================ends with midnavbatr =================== -->
+     <div id="hero">
+        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw0a8d99d0/homepage/HeroBanner/sos-desktop-new.jpg" alt="">
+     </div>
+
+     <!-- ==============================  gallery in three in photo =========== -->
+      <div class="rhiding">Rings to Cherish Forever</div>
+      <div class="celpara">Celebrate Forever with the Perfect Engagement Ring</div>
+      <div><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" alt=""></div>
+      <div class="galimg">
+        <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwe348ed48/homepage/Engagement%20Rings/diamond-engagement-rings.jpg" alt=""></div>
+        <div> <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw9b832b64/homepage/Engagement%20Rings/solitaire-rings.jpg" alt=""></div>
+        <div>
+            <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw542222a4/homepage/ShopByCollection/sbc-engagement-rings.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- ==================================end im gallery====================================== -->
+
+      <div id="ShopbyCategory">
+        <div class="shopby">Shop By Category</div>
+        <div class="Browse">Browse through your favorite categories. We've got them all!</div>
+        <div ><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" alt=""></div>
+        <div class="miniimg">
+            <div class="miniimg1">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw6cdc8e02/homepage/shopByCategory/festive-mangalsutra.jpg" alt="">
+                 <div class="M" >Mangalsutras</div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwebf0313b/homepage/shopByCategory/fod-gold-coins.jpg" alt="">
+                <div class="G">Gold Coins</div>
+            </div>
+            <div class="miniimg1">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwd475d05e/homepage/shopByCategory/festive-earrings.jpg" alt="">
+                <div class="E">Earring</div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw3a5962fa/homepage/shopByCategory/festive-ring.jpg" alt="">
+                <div class="F">Finger Rings </div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw1466aa93/homepage/shopByCategory/festive-pendant.jpg" alt="">
+                <div class="P">Pendants</div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw45d6ba82/homepage/shopByCategory/festive-nosepin.jpg" alt="">
+                <div class="N">Nose Pins</div>
+            </div>
+        </div>
+      </div>
+
+      <!-- ==================================end im gallery====================================== -->
+
+     
+        
+        <div class="miniimg">
+            <div class="miniimg1">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw0416ab61/homepage/shopByCategory/festive-chain.jpg" alt="">
+                 <div class="M" >Chains</div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwfadf469d/homepage/shopByCategory/festive-bracelet.jpg" alt="">
+                <div class="G">Bracelets</div>
+            </div>
+            <div class="miniimg1">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw93d4f93a/homepage/shopByCategory/festive-bangle.jpg" alt="">
+                <div class="E">Bangles</div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwa0058dcd/homepage/shopByCategory/festive-necklace.jpg" alt="">
+                <div class="F">Neckwear </div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwf70a05e4/homepage/shopByCategory/festive-necklace-set.jpg" alt="">
+                <div class="P">Necklace Set</div>
+            </div>
+            <div class="miniimg1"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw7a3bfc46/homepage/shopByCategory/festive-pendant-earring-set.jpg" alt="">
+                <div class="N">Pendant Sets</div>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- ==================================================================================== -->
+       <div>
+        <div class="bycoll">Shop By Collections</div>
+        <div class="Whatever">Whatever the occasion, we've got a beautiful piece of jewellery for you.</div>
+        <div><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" alt=""></div>
+        <div class="threminiimg">
+            <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw62541f46/homepage/ShopByCollection/sbc-string-it.jpg" alt="">
+            <div class="stinit">Sting It</div>
+            </div>
+            <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwed6c0fbc/homepage/ShopByCollection/sbc-modern-gold.jpg" alt="">
+                <div class="stinit">Modern Gold</div>
+            </div>
+            <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw542222a4/homepage/ShopByCollection/sbc-engagement-rings.jpg" alt="">
+                <div class="stinit">Engagement Rings</div>
+            </div>
+        </div>
+       </div>
+
+
+       <!-- ==================================================================================== -->
+        <div>
+            <div class="pickup">Pick Up Where You Left Off!</div>
+            <div class="ourpro">Our products tend to sell out quickly, so don't delay in completing your purchase.</div>
+            <div><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwd9a3b5d2/Line-Design.svg" alt=""></div>
+            <div class="tanishq"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw8d40a0ea/homepage/posters/gifting-banner-desktop-wb.jpg" alt=""></div>
+        </div>
+
+        <!-- ============================================================================================== -->
+         <div class="topsellers111">Top Sellers </div>
+         <div class="checkout111">Check out the products that our customers love the most</div>
+         <div><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" alt=""></div>
+
+         <!-- ========================================================== -->
+       <div class="newFor">New For You! </div>
+       <div class="latestOur">Our latest releases, just for you !</div>
+ 
+       <div><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" alt=""></div>
+       <div class="bkck">
+        <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw51f140cf/homepage/NewForYou/festive-edit.jpg" alt="">
+        
+        </div>
+        <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw7886b2ef/homepage/NewForYou/festive-earrings.jpg" alt=""></div>
+        <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw63134b5a/homepage/NewForYou/auspicious-jewellery.jpg" alt=""></div>
+       </div>
+
+
+       <!-- =================================================================================== -->
+        <div>
+            <div class="gender">Shop By Gender</div>
+            <div class="childern111">First-class Jewellery for first-class Men, Women & Children.</div>
+            <div><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" alt=""></div>
+            <div class="prd">
+                <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwef4310c0/homepage/ShopByGender/Men.jpg" alt="">
+                    <div class="kids">Men</div>
+                </div>
+                <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw24db1907/homepage/ShopByGender/kid.jpg" alt="">
+                    <div class="kids">Kids</div>
+                </div>
+                <div><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwc0abe627/homepage/ShopByGender/Woman.jpg" alt="">
+                    <div class="kids">Women</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!---===================================================================================---->
+        <div>
+        
+            <div class="Find">Find Your Perfect Sparkle for Every Occasion</div>
+            <div class="Explore">Explore similar styles</div>
+        </div>
+         
+
+        <div class="wse">
+        <div class="wo">Workwear</div>
+        <div>Sleek</div>
+        <div>Elegent</div>
+        </div>
+
+        <!--------------======================================================================-->
+        
+
+        <div class="v2">
+        <div class="demand"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZAOfzBAZxPz3RUyNfpvxO3WNtso6jzb1DXaaq-UdJ4irJ9vtWiGycJimzzmz2AX4AGcI&usqp=CAU"></div>
+      
+        <div class="static"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw9b832b64/homepage/Engagement%20Rings/solitaire-rings.jpg">
+            <div class="so">Solitaire</div></div>
+        <div class="dw"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw35e21550/images/hi-res/50D4C1FOXAA02_1.jpg?sw=480&sh=480">
+            <div class="di">Diamond Engagement</div></div>
+        </div>
+
+
+
+        <!--------------------------------------------------------------------------------->
+
+        <div class="lib"><img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw02403ed9/homepage/Mia/miabytanishq-hp-desktop.jpg" alt=""></div>
+
+
+
+        <!--------------------------------------------------------------------------------------------->
+
+       <div class="sit"><img src="https://www.tanishq.co.in/on/demandware.static/-/Sites/default/dw5d187494/images/espot/bsdj-2card.jpg"></div>
+
+
+       <!----------------------------------------------------------------------------------------------->
+
+       <div class="topsellers111">Jewellery Guides</div>
+       <div class="checkout111">Check out our ready made guides to make your buying process easier.</div>
+       <div><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" alt=""></div>
+       
+          
+
+       <div class="radha">
+        <div class="hoverra"><img src="https://blog.tanishq.co.in/wp-content/uploads/2024/02/Group-1471-14.png" alt="">
+            
+        </div>
+        <div class="hoverdha"><img src="https://blog.tanishq.co.in/wp-content/uploads/2024/03/2-3.jpg" alt="">
+            
+        </div>
+        
+    </div>
+
+
+
+
+
+    <!------------------------------------------------footer ------------------------------------------->
+
+    <section class="footer" id="footer">
+        
+        
+       
+   
+        <!-- 1==== -->
+        <div class="bofooter">       
+    
+        <div class="bfooter1">
+         
+        
+           
+        </div>
+        <!-- 2==== -->
+        <div class="bfooter2">
+    <div>Useful Links</div><br>
+    <div  class="anchor">
+        <a href="">Delivery Information</a><br><br>
+        <a href="">International Shipping
+        </a><br><br>
+        <a href="">Payment Options</a><br><br>
+        <a href="">Track your order</a><br><br>
+        <a href="">Returns</a><br>
+        <a href="">Find a Store</a><br>
+    </div>
+        </div>
+        <!-- 3==== -->
+        <div class="bfooter3">
+        <div>Information</div><br>
+        <div class="anchor">
+            <a href="">Careers</a><br><br>
+            <a href="">Blog</a><br><br>
+            <a href="">Offers & Contest Details</a><br><br>
+            <a href="">Help & FAQs</a><br><br>
+            <a href="">About Tanishq</a> <br>   <br>
+        </div>
+        </div>
+        <!-- 4== -->
+        <div class="bfooter4">
+            <div>Contact Us</div><br>
+        <div class="anchor">
+         <a href=""><i class="fa-solid fa-envelope"></i> Write to us</a><br><br>
+        <a href=""><i class="fa-solid fa-message"></i> Chat with Us</a><br><br>
+        <a href=""><a href=""><i class="fa-solid fa-phone"></i></a> +91 7991914911</a><br><br>
+
+        </div>
+
+       
+        </div>
+        <div id="qr"><h1>Download the Tanishq App Now</h1>
+            <img src="qr.jpg" > <br>
+            <img src="ap1.jpg" id="ap">
+            <img src="ap2.jpg" id="ap">
+            
+        </div>
+
+
+        <!-- <div class="mfooter">
+            <div class="mf2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-google-plus"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+           
+        </div>
+    -->
+
+
+    
+        
+    
+
+    </section>
+        
+</body>
+</html>
